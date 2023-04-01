@@ -23,6 +23,7 @@ Contributing
 Contributions to BlogSmith are always welcome! If you find a bug, have a feature request, or would like to contribute code, please feel free to open an issue or pull request on GitHub.
 
 License
+[![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)
 BlogSmith is released under the MIT License. Feel free to use and modify the code as you see fit!
 
 
