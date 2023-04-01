@@ -2,14 +2,6 @@
 
 BlogSmith is a blogging application that allows users to share their thoughts, ideas, and experiences with the world. With an intuitive user interface and powerful features, BlogSmith makes it easy to create, manage, and publish your blog content.
 
-## Features
-- User-friendly interface for creating and editing blog posts
-- Customizable blog themes and layouts
-- Commenting system for user engagement and feedback
-- Integrated search functionality for easy navigation and discovery
-- Social sharing options for easy promotion and distribution
-- Analytics dashboard for tracking blog performance and audience engagement
-- Responsive design for optimal viewing on any device
 
 ## Installation
 - To install BlogSmith, simply clone the repository and install the necessary dependencies:
