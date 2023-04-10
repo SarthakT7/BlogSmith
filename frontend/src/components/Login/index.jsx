@@ -24,8 +24,6 @@ const Login = () => {
             window.location = '/'
 
 
-
-            
         }
 
         catch (err) {
