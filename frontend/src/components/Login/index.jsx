@@ -22,6 +22,10 @@ const Login = () => {
             const { data: res } = await axios.post(URL, data);
             localStorage.setItem('token', res.data);
             window.location = '/'
+
+
+
+            
         }
 
         catch (err) {
@@ -33,8 +37,6 @@ const Login = () => {
     }
     return (
         <>
-
-        
             <h1>Welcome to Log In Page</h1>
             <Link to="/signup">Go to Sign Up Page</Link>
             <form onSubmit={handleSubmit}>
