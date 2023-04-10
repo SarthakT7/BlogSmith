@@ -33,12 +33,14 @@ const Login = () => {
     }
     return (
         <>
+
+        
             <h1>Welcome to Log In Page</h1>
             <Link to="/signup">Go to Sign Up Page</Link>
             <form onSubmit={handleSubmit}>
                 <input type="email" placeholder="Email" name='email' value={data.email} onChange={handleChange} required />
                 <input type="password" placeholder="Password" name='password' value={data.password} onChange={handleChange} required />
-                {error && <div>{error}</div>}
+                {error && <div>{error}</div>} 
                 <button type="submit">Sign In</button>
             </form>
         </>
