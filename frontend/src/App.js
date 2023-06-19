@@ -9,9 +9,9 @@ const App = () => {
   return (
       <Routes>
         {user && <Route path="/" exact element={<Main />} />}
-        <Route path="/login" exact element={<Login />} />
+        {/* <Route path="/login" exact element={<Login />} />
         <Route path="/signup" exact element={<Signup />} />
-        <Route path = "/" exact element={<Navigate replace to = '/login'/>}/>
+        <Route path = "/" exact element={<Navigate replace to = '/login'/>}/> */}
       </Routes>
   )
 }
